@@ -4,7 +4,7 @@ import mysql.connector
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 def get_db_connection():
     return mysql.connector.connect(
