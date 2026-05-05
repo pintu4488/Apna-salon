@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+</head>
+<body> 
+    <h1 id="na">fiufgiugoihgoio</h1>
+    <div><input type="text"></div>
+    <a href="">ddd</a>
+    <a href="/about">ffffff</a>
+     <h2>यूजर रजिस्ट्रेशन फॉर्म</h2>
+
+    <form action="/" method="post">
+        <label for="name">पूरा नाम:</label><br>
+        <input type="text" id="name" name="name" placeholder="अपना नाम लिखें" required><br><br>
+
+        <label for="email">ईमेल आईडी:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+        <label for="password">पासवर्ड:</label><br>
+        <input type="password" id="id" name="password" required><br><br>
+
+        <label for="address">पता (Address):</label><br>
+        <textarea id="address" name="address" rows="4" cols="30" placeholder="अपना पता यहाँ लिखें"></textarea><br><br>
+
+        <input type="submit" value="जमा करें (Submit)">
+    </form>
+</body>
+</html>

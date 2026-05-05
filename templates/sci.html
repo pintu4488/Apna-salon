@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; background-color: #f4f4f4; }
+        .form-container { background: white; padding: 20px; border-radius: 8px; max-width: 400px; margin: auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #28a745; color: white; padding: 10px; border: none; width: 100%; cursor: pointer; border-radius: 4px; }
+        button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>रजिस्ट्रेशन फॉर्म</h2>
+    <form action="/submit" method="POST">
+        <input type="text" name="username" placeholder="पूरा नाम" required>
+        <input type="number" name="ser" placeholder="number" required>
+        <input type="email" name="useremail" placeholder="ईमेल आईडी" required>
+        <input type="text" name="userphone" placeholder="मोबाइल नंबर" required>
+        <textarea name="usermessage" placeholder="आपका संदेश"></textarea>
+        <button type="submit">सबमिट करें</button>
+    </form>
+</div>
+
+</body>
+</html>

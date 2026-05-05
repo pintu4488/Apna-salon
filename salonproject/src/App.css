@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100vw;
+    height: 300px;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header-img{
+    width: 100%;
+    height: 160%;
+}
+
+@media (max-width:500px) {
+    .header{
+    height: 200px;
+}
+    
+}
+.footer{
+    width: 100vw;
+    height: 250px;
+    background-color: black;
+    border: 2px solid black;
+    
+     
+}
+.footer-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.footer-img{
+    width: 200%;
+    height: 200%;
+    
+    
+    
+}
+.footer-about{
+    width: 100px;
+    height: 200px;
+    
+}
+
+.contant-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.intagram{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.book-btn,.style-ser,.servise-salon{
+    width: 100px;
+    height: 100px;
+    border:2px solid gold;
+    border-radius: 50%;
+    
+    
+}
+.book-now,.man-hair,.serves{
+    width:100%;
+    height: 100%;
+}
+.row-conte{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+}
+/* Container */
+.container {
+  padding: 15px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: #d4af37; /* gold */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* mobile 2 columns */
+  gap: 10px;
+}
+
+/* Card */
+.card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d4af37;
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 6px;
+}
+
+/* Text */
+.overlay h3 {
+  margin: 0;
+  font-size: 13px;
+  color: #d4af37;
+}
+
+/* Hover (optional for desktop) */
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card img {
+    height: 200px;
+  }
+}
+
+
+
+
+
