@@ -25,7 +25,7 @@ const Usersow = () => {
     const interval = setInterval(() => {
       fetchBookings();
       fetchStatus();
-    }, 2000);
+    }, 40000);
 
     return () => clearInterval(interval);
   }, []);
