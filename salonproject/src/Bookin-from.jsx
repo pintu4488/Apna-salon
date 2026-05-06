@@ -45,7 +45,7 @@ const SalonForm = () => {
       try {
         console.log("Sending data to Flask:", formData);
 
-        const response = await fetch('http://127.0.0.1:5000/book-salon', {
+        const response = await fetch('https://apna-salon.onrender.com/book-salon', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
