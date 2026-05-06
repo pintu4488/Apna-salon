@@ -7,13 +7,13 @@ const Usersow = () => {
   const TIME_PER_PERSON = 30;
 
   const fetchBookings = async () => {
-    const res = await fetch('http://127.0.0.1:5000/get-bookings');
+    const res = await fetch('https://apna-salon.onrender.com/get-bookings');
     const data = await res.json();
     setBookings(data);
   };
 
   const fetchStatus = async () => {
-    const res = await fetch('http://127.0.0.1:5000/get-status');
+    const res = await fetch('https://apna-salon.onrender.com/get-status');
     const data = await res.json();
     setStatus(data);
   };
