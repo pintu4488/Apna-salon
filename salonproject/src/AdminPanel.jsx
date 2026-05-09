@@ -94,7 +94,7 @@ const AdminPanel = () => {
 };
 
 const styles = {
-  container: { padding: 20, textAlign: 'center', background: '#121212', color: 'white', minHeight: '100vh' },
+  container: { padding: 20, textAlign: 'center', background: '#121212', color: 'white', maxHeight: '100vh' },
   input: { padding: 10, margin: 10, width: 250 },
   button: { padding: '10px 20px', background: '#D4AF37', border: 'none', cursor: 'pointer' }
 };
