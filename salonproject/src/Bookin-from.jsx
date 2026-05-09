@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SalonForm = () => {
   const [formData, setFormData] = useState({
@@ -51,6 +52,7 @@ const SalonForm = () => {
         alert(`नमस्ते ${formData.name}! बुकिंग सफल रही।`);
       
         setFormData({ haircut: '0', beard: '0', name: '', phone: '' });
+        navigate('/');
       } else {
         const errorRes = await response.json();
         alert("सर्वर एरर: " + (errorRes.error || "डेटा रिजेक्ट हो गया"));
