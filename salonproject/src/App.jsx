@@ -13,11 +13,12 @@ function App() {
     <>
       <Header />
              <Usersow/>
-           <Style />
+           
             
           
       <main>
         <Routes>
+          <Route path="/" element={<style />}></Route>
           
           <Route path="/book-now" element={<SalonForm />}></Route>
           <Route path="/Imgbox" element={<Imgbox />}></Route>
