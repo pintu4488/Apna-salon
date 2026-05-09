@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Link } from 'react-router-dom';
 
 const services = [
   { name: "Hair Cut", img: "https://res.cloudinary.com/dpvs1afkj/image/upload/v1777914714/file_00000000d33c71fa9c01a4f0b7457876_3_gbzwek.png" },
@@ -19,6 +20,10 @@ const services = [
 
 function Services() {
   return (
+    <>
+      <span>
+        <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem",marginRight:"0",marginLeft:"100px"}}>◀ go to home </Link>
+      </span>
     <div className="container">
       <h1 className="title">Apna Salon Services For Men</h1>
 
@@ -34,7 +39,9 @@ function Services() {
         ))}
       </div>
     </div>
+    </>
   );
+   
 }
 
 export default Services;
