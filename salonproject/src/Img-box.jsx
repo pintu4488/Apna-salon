@@ -8,9 +8,7 @@ function ImagePage() {
         <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
       </span>
     <div style={styles.container}>
-      <span>
-        <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
-      </span>
+      
       {/* 20 images */}
       <a href="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1776757664/Screenshot_20260420_180352_Video_Player_ine9rk.jpg"><img src="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1776757664/Screenshot_20260420_180352_Video_Player_ine9rk.jpg" style={styles.img} /></a>
       <a href="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1776757671/Screenshot_20260420_180457_Video_Player_ulbswn.jpg"><img src="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1776757671/Screenshot_20260420_180457_Video_Player_ulbswn.jpg" style={styles.img} /></a>
