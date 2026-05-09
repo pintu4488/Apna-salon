@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SalonForm = () => {
    const navigate = useNavigate();
@@ -65,6 +66,7 @@ const SalonForm = () => {
 
   return (
     <div style={styles.container}>
+       <Link to={"/"} style={{textDecoration:"none",fontSize:"2rem"}} >❌</Link>
       <h2 style={styles.header}>BOOKING</h2>
       <form onSubmit={handleSubmit} style={styles.form}>
         
@@ -139,6 +141,9 @@ const SalonForm = () => {
           स्लॉट बुक करें
         </button>
       </form>
+        <span>
+        <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
+      </span>
     </div>
   );
 };
