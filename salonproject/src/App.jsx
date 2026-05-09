@@ -18,7 +18,7 @@ function App() {
           
       <main>
         <Routes>
-          <Route path="/" element={<style/>}></Route>
+          <Route path="/" element={<Style/>}></Route>
           
           <Route path="/book-now" element={<SalonForm />}></Route>
           <Route path="/Imgbox" element={<Imgbox />}></Route>
