@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const SalonForm = () => {
+   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     haircut: '0', 
     beard: '0',  
