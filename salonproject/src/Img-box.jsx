@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 function ImagePage() {
   return (
+    <>
+      <span>
+        <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
+      </span>
     <div style={styles.container}>
       <span>
         <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
@@ -33,6 +37,10 @@ function ImagePage() {
       <a href="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1777476484/bro_ntrk27.jpg"><img src="https://res.cloudinary.com/dpvs1afkj/image/upload/q_auto/f_auto/v1777476484/bro_ntrk27.jpg" style={styles.img} /></a>
 
     </div>
+      <span>
+        <Link to={"/"} style={{textDecoration:"none",fontSize:"1.5rem"}}>◀ go to home </Link>
+      </span>
+    </>
   );
 }
 
