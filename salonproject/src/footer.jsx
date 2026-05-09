@@ -43,10 +43,10 @@ function Footer() {
                 <h6>Contact Us</h6>
               </div>
               <div>
-                <a style={{textDecoration:"none"}} href="tel:9534049901">9534049901</a>
+                <a style={{textDecoration:"none",fontSize:"0.90rem"}} href="tel:9534049901">📞9534049901</a>
               </div>
               <div>
-                <a style={{textDecoration:"none"}} href="tel:8340144406">8340144406</a>
+                <a style={{textDecoration:"none",fontSize:"0.90rem"}} href="tel:8340144406">📞8340144406</a>
               </div>
               <div >
                 <a style={{ color: "white",textDecoration:"none"}}href="https://maps.app.goo.gl/yGfLfJvgeTZ4yL3U6">Indira Nagar,Double Transformer</a>
